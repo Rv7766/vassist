@@ -1,0 +1,142 @@
+systemd-+-ModemManager---2*[{ModemManager}]
+        |-NetworkManager---2*[{NetworkManager}]
+        |-accounts-daemon---2*[{accounts-daemon}]
+        |-acpid
+        |-apache2---5*[apache2]
+        |-avahi-daemon---avahi-daemon
+        |-bluetoothd
+        |-chrome_crashpad---{chrome_crashpad}
+        |-chrome_crashpad
+        |-chrome_crashpad---2*[{chrome_crashpad}]
+        |-code-+-code---code---17*[{code}]
+        |      |-code---code---code---11*[{code}]
+        |      |-code---6*[{code}]
+        |      |-code---15*[{code}]
+        |      |-code---17*[{code}]
+        |      |-code-+-code---7*[{code}]
+        |      |      |-code---13*[{code}]
+        |      |      |-cpptools---13*[{cpptools}]
+        |      |      |-pet
+        |      |      `-15*[{code}]
+        |      |-code-+-bash---vassist
+        |      |      |-bash
+        |      |      `-17*[{code}]
+        |      `-36*[{code}]
+        |-cpptools-srv---7*[{cpptools-srv}]
+        |-cron
+        |-cups-browsed---2*[{cups-browsed}]
+        |-cupsd
+        |-dbus-daemon
+        |-gnome-keyring-d---3*[{gnome-keyring-d}]
+        |-haveged
+        |-ibus-daemon-+-ibus-engine-sim---2*[{ibus-engine-sim}]
+        |             |-ibus-extension----7*[{ibus-extension-}]
+        |             |-ibus-memconf---2*[{ibus-memconf}]
+        |             |-ibus-ui-gtk3---7*[{ibus-ui-gtk3}]
+        |             `-2*[{ibus-daemon}]
+        |-ibus-x11---6*[{ibus-x11}]
+        |-irqbalance---{irqbalance}
+        |-kdeinit5---klauncher---2*[{klauncher}]
+        |-2*[kerneloops]
+        |-8*[kioslave5]
+        |-kioslave5---8*[{kioslave5}]
+        |-kwalletd5---2*[{kwalletd5}]
+        |-mysqld---36*[{mysqld}]
+        |-networkd-dispat
+        |-packagekitd---2*[{packagekitd}]
+        |-pcscd---4*[{pcscd}]
+        |-polkitd---2*[{polkitd}]
+        |-power-profiles----2*[{power-profiles-}]
+        |-rsyslogd---3*[{rsyslogd}]
+        |-rtkit-daemon---2*[{rtkit-daemon}]
+        |-run-cups-browse---run-cups-browse---sleep
+        |-run-cupsd-+-cups-proxyd---3*[{cups-proxyd}]
+        |           `-cupsd
+        |-sddm-+-Xorg---9*[{Xorg}]
+        |      |-sddm-helper---startplasma-x11-+-plasma_session-+-DiscoverNotifie---3*[{DiscoverNotifie}]
+        |      |                               |                |-agent---2*[{agent}]
+        |      |                               |                |-baloo_file---3*[{baloo_file}]
+        |      |                               |                |-gmenudbusmenupr---2*[{gmenudbusmenupr}]
+        |      |                               |                |-kaccess---2*[{kaccess}]
+        |      |                               |                |-kded5---7*[{kded5}]
+        |      |                               |                |-ksmserver-+-megasync-+-mega-desktop-ap---8*[{mega-desktop-ap}]
+        |      |                               |                |           |          `-23*[{megasync}]
+        |      |                               |                |           `-2*[{ksmserver}]
+        |      |                               |                |-kwin_x11---12*[{kwin_x11}]
+        |      |                               |                |-org_kde_powerde---6*[{org_kde_powerde}]
+        |      |                               |                |-plasmashell-+-chrome-+-chrome---chrome---23*[{chrome}]
+        |      |                               |                |             |        |-chrome---chrome-+-chrome---7*[{chrome}]
+        |      |                               |                |             |        |                 |-2*[chrome---10*[{chrome}+
+        |      |                               |                |             |        |                 |-chrome---9*[{chrome}]
+        |      |                               |                |             |        |                 `-chrome---8*[{chrome}]
+        |      |                               |                |             |        |-chrome---8*[{chrome}]
+        |      |                               |                |             |        |-chrome---7*[{chrome}]
+        |      |                               |                |             |        `-36*[{chrome}]
+        |      |                               |                |             |-dolphin-+-konsole-+-bash---pstree
+        |      |                               |                |             |         |         `-6*[{konsole}]
+        |      |                               |                |             |         `-8*[{dolphin}]
+        |      |                               |                |             |-firefox-bin-+-crashhelper---{crashhelper}
+        |      |                               |                |             |             |-forkserver-+-Isolated Servic---23*[{I+
+        |      |                               |                |             |             |            |-3*[Isolated Web Co---25*+
+        |      |                               |                |             |             |            |-Isolated Web Co---27*[{I+
+        |      |                               |                |             |             |            |-Isolated Web Co---26*[{I+
+        |      |                               |                |             |             |            |-19*[Isolated Web Co---24+
+        |      |                               |                |             |             |            |-Isolated Web Co---21*[{I+
+        |      |                               |                |             |             |            |-Isolated Web Co---33*[{I+
+        |      |                               |                |             |             |            |-Privileged Cont---20*[{P+
+        |      |                               |                |             |             |            |-RDD Process---5*[{RDD Pr+
+        |      |                               |                |             |             |            |-Socket Process---5*[{Soc+
+        |      |                               |                |             |             |            |-Utility Process---5*[{Ut+
+        |      |                               |                |             |             |            |-3*[Web Content---15*[{We+
+        |      |                               |                |             |             |            `-WebExtensions---19*[{Web+
+        |      |                               |                |             |             |-plasma-browser----2*[{plasma-browser-+
+        |      |                               |                |             |             `-196*[{firefox-bin}]
+        |      |                               |                |             `-55*[{plasmashell}]
+        |      |                               |                |-polkit-kde-auth---4*[{polkit-kde-auth}]
+        |      |                               |                |-variety---7*[{variety}]
+        |      |                               |                |-xembedsniproxy---2*[{xembedsniproxy}]
+        |      |                               |                `-{plasma_session}
+        |      |                               |-ssh-agent
+        |      |                               `-{startplasma-x11}
+        |      `-{sddm}
+        |-smartd
+        |-snapd---10*[{snapd}]
+        |-start_kdeinit
+        |-systemd-+-(sd-pam)
+        |         |-at-spi-bus-laun-+-dbus-daemon
+        |         |                 `-3*[{at-spi-bus-laun}]
+        |         |-at-spi2-registr---2*[{at-spi2-registr}]
+        |         |-baloorunner---2*[{baloorunner}]
+        |         |-dbus-daemon
+        |         |-dconf-service---2*[{dconf-service}]
+        |         |-gnome-keyring-d---2*[{gnome-keyring-d}]
+        |         |-gvfs-udisks2-vo---3*[{gvfs-udisks2-vo}]
+        |         |-gvfsd-+-gvfsd-trash---2*[{gvfsd-trash}]
+        |         |       `-2*[{gvfsd}]
+        |         |-ibus-portal---2*[{ibus-portal}]
+        |         |-kactivitymanage---5*[{kactivitymanage}]
+        |         |-kglobalaccel5---2*[{kglobalaccel5}]
+        |         |-krunner---21*[{krunner}]
+        |         |-kscreen_backend---2*[{kscreen_backend}]
+        |         |-ksystemstats---2*[{ksystemstats}]
+        |         |-obexd
+        |         |-pipewire---{pipewire}
+        |         |-pipewire-media----{pipewire-media-}
+        |         |-pulseaudio-+-gsettings-helpe---3*[{gsettings-helpe}]
+        |         |            `-4*[{pulseaudio}]
+        |         |-xdg-desktop-por---5*[{xdg-desktop-por}]
+        |         |-xdg-desktop-por---3*[{xdg-desktop-por}]
+        |         |-xdg-desktop-por---7*[{xdg-desktop-por}]
+        |         |-xdg-document-po-+-fusermount3
+        |         |                 `-5*[{xdg-document-po}]
+        |         `-xdg-permission----2*[{xdg-permission-}]
+        |-systemd-journal
+        |-systemd-logind
+        |-systemd-resolve
+        |-systemd-timesyn---{systemd-timesyn}
+        |-systemd-udevd
+        |-udisksd---4*[{udisksd}]
+        |-unattended-upgr---{unattended-upgr}
+        |-upowerd---2*[{upowerd}]
+        |-wpa_supplicant
+        `-xsettingsd

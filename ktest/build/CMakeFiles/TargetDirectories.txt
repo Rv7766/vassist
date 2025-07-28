@@ -1,0 +1,6 @@
+/home/rv/Desktop/Study/Vassist/ktest/build/CMakeFiles/vassist.dir
+/home/rv/Desktop/Study/Vassist/ktest/build/CMakeFiles/edit_cache.dir
+/home/rv/Desktop/Study/Vassist/ktest/build/CMakeFiles/rebuild_cache.dir
+/home/rv/Desktop/Study/Vassist/ktest/build/lib/CMakeFiles/mylib.dir
+/home/rv/Desktop/Study/Vassist/ktest/build/lib/CMakeFiles/edit_cache.dir
+/home/rv/Desktop/Study/Vassist/ktest/build/lib/CMakeFiles/rebuild_cache.dir
