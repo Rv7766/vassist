@@ -1,0 +1,3 @@
+/home/rv/Desktop/Study/Vassist/C++/sdl/build/CMakeFiles/test.dir
+/home/rv/Desktop/Study/Vassist/C++/sdl/build/CMakeFiles/edit_cache.dir
+/home/rv/Desktop/Study/Vassist/C++/sdl/build/CMakeFiles/rebuild_cache.dir
